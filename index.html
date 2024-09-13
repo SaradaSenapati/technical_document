@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#html5" class="nav-link">HTML5</a></li>
+                <li><a href="#css3" class="nav-link">CSS 3</a></li>
+                <li><a href="#js" class="nav-link">JS</a></li>
+                <li><a href="#Bootstrap" class="nav-link">Bootstrap</a></li>
+                <li><a href="#MySql" class="nav-link">Mysql</a></li>
+                <li><a href="#javaprogramming" class="nav-link">Java Programming</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-doc">
+
+            
+            <section class="main-section" id="home">
+                <header>
+                    Home
+                </header>
+                <p class="font">
+                    Technical documentation describes how a product or service works, and can include its structure, purpose, and application. It can be written in a variety of formats, including text, video tutorials, and augmented reality applications. Technical documentation can be used by many different stakeholders, including engineers, marketers, and end users.
+                </p>
+                <p class="font">Put very simply, technical documentation is the part of product communication that explains the product and makes it possible for users to actually use it. It is therefore not about advertising and press releases, but “hard” facts. Technical documentation can look very different, of course, depending on the product.
+                    
+                </p>
+                
+                <br>
+                
+            </section>
+
+            <section class="main-section" id="html5">
+                <header>
+                    HTML5
+                </header>
+                <p class="font">
+                    <b>Introduction:</b><br> HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is an abbreviation of Hypertext and Markup language. Hypertext defines the link between the web pages. The markup language is used to define the text document within the tag which defines the structure of web pages. HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces (API) and Document Object Model (DOM). 
+                </p>
+                <br>
+                <p class="font"><b>Features: </b>It has introduced new multimedia features which supports both audio and video controls by using  audio  and video tags.
+                    There are new graphics elements including vector graphics and tags.
+                    Enrich semantic content by including header footer, article, section and figure are added.
+                    Drag and Drop- The user can grab an object and drag it further dropping it to a new location.
+                    Geo-location services- It helps to locate the geographical location of a client.
+                    Web storage facility which provides web application methods to store data on the web browser.
+                    Uses SQL database to store data offline.
+                    Allows drawing various shapes like triangle, rectangle, circle, etc.
+                    Capable of handling incorrect syntax.
+                    Easy DOCTYPE declaration i.e., !doctype html
+                    Easy character encoding i.e., meta charset=”UTF-8″
+
+                    <br>
+                    <code>
+                        <pre><code>
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html lang="en"&gt;
+                            &lt;head&gt;
+                                &lt;meta charset="UTF-8"&gt;
+                                &lt;title&gt;HTML5 Example&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                            &lt;/body&gt;
+                            &lt;/html&gt;
+                                </code></pre>
+                    </code>
+                        
+            </section>
+
+            <section class="main-section" id="css3">
+                <header>
+                    CSS 3
+                </header>
+                <p class="font">
+                    <b>What is CSS:</b><br>
+                    CSS stands for Cascading Style Sheets and plays an important role in providing the styles to the HTML elements, which helps to make web pages presentable. 
+
+                    CSS is essential for providing distinctive styles to elements and ensuring responsiveness across diverse screen sizes. Inline CSS commands the highest priority in styling. Web browsers implement the default styles to elements, which can be customized using CSS.
+                    
+                </p>
+                <p class="font"> 
+                    <b>Significance of Cascade : </b><br><br>
+
+                    The Cascade is an algorithm that defines combining the property values that originate from different sources. The significance of Cascade is to prioritize & resolve the conflict issues for determining the order of the final styling that will be applied to the HTML element if there exist multiple stylings(cascade layer) for the same element. This helps to set the value for a property on an element according to precedence when declared.
+                    <br><br>
+                </p>
+                <pre><code>
+                    body {
+                        <br>
+                        font-family: Arial, sans-serif;
+                        <br>
+                        background-color: #f0f0f0;
+                        <br>
+                        margin: 0;
+                        <br>
+                        padding: 0;
+                        <br>
+                    }
+                    <br>
+                    
+                    h1 {
+                        <br>
+                        color: #333;
+                        <br>
+                        text-align: center;
+                        <br>
+                        margin-top: 50px;
+                        <br>
+                    }
+                        </code></pre>
+            </section>
+
+            <section class="main-section" id="js">
+                <header>
+                    JS
+                </header>
+                <p class="font">
+                    JavaScript is a single-threaded, synchronous programming and scripting language widely used in web development. It plays a crucial role in both front-end and back-end development, enabling dynamic and interactive user experiences. Unlike compiled languages, JavaScript is interpreted through web browsers, making it highly accessible and versatile. It is a loosely typed (or weakly typed) language, meaning variable types are determined at runtime.
+                    <br>
+                    <b>History of JavaScript:</b>
+                    <br> 
+                    JavaScript’s history began in 1993 with the creation of the first popular web browser, Mosaic. In 1994, Netscape, founded by Marc Andreessen, sought to make the web more interactive by adding a programming language to web pages. Brendan Eich was hired to develop this language, initially planning to use Scheme. However, after Netscape merged with Sun Microsystems, they decided to incorporate Java into their browser to compete with Microsoft. To avoid confusion between the new scripting language and Java, Netscape named the scripting language “LiveScript,” later changing it to “JavaScript” in December 1995. The first version was called “Mocha” by Marc Andreessen but was renamed to “JavaScript” due to trademark and other reasons.
+                </p>
+
+                <pre><code>
+                    function greet(name) {
+                        <br>
+                        return "Hello, " + name + "!";
+                        <br>
+                    }
+                    <br>
+                    
+                    console.log(greet("Alice"));
+                        </code></pre>
+            </section>
+
+            <section class="main-section" id="Bootstrap">
+                <header>
+                    Bootstrap
+                </header>
+
+                <p class="font">
+                    Bootstrap is one of the popular front-end frameworks which has a nice set of predefined CSS codes. The updated version of Bootstrap5 was officially released on 16 June 2020. Bootstrap is a CSS framework that makes mobile-friendly web development and provides responsiveness.
+
+                    The framework is available for free and can be utilized in two ways either by downloading the zip files and incorporating Bootstrap libraries/modules into the project or by directly including the Bootstrap URL and using the online version.
+                    
+                </p>
+
+                <p class="font">
+                    <b>Features of Bootstrap:</b> Bootstrap is the Fastest and Easiest way to create web pages.
+                    Bootstrap is widely used to create Platform-independent web pages.
+                    Bootstrap is popular for creating Responsive web pages.
+                    <br>
+                    <b>Reasons to learn Bootstrap?</b> Using pre-styled components makes development faster.
+                    Bootstrap is based on the mobile-first concept that works well on all screen sizes.
+                    Bootstrap makes it easy to Use the grid system for a well-organized and responsive page layout without complex coding.
+                    Bootstrap offers pre-built components and styles, making projects faster to complete.
+                    <br><br>
+                </p>
+
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                        &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+                        &lt;title&gt;Bootstrap Example&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;h1&gt;Hello, Bootstrap!&lt;/h1&gt;
+                                    &lt;p&gt;This is a Bootstrap-styled paragraph.&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    
+                        &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                        </code></pre>
+            </section>
+
+            <section class="main-section" id="MySql">
+                <header>
+                    MySql
+                </header>
+                <p class="font">
+                    MySQL is a popular open-source Relational Database Management System (RDBMS) that uses SQL (Structured Query Language) for database operations. While MySQL is a specific database system accessible for free and supports various programming languages.
+
+                    In this article, we will explore the importance of MySQL with its uses and discover why it is so important in databases.
+                </p>
+                <br>
+
+                <p class="font"><b>Why Use MySQL:</b><br>
+                    MySQL is a popular choice for managing relational databases for several reasons:
+
+                    Open Source: MySQL is open-source software, which means it’s free to use and has a large community of developers contributing to its improvement.
+                    Relational: MySQL follows the relational database model, allowing users to organize data into tables with rows and columns, facilitating efficient data storage and retrieval.
+                    Reliability: MySQL has been around for a long time and is known for its stability and reliability.
+                    Performance: MySQL is optimized for performance, making it capable of handling high-volume transactions and large datasets efficiently.
+                    Scalability: MySQL can scale both vertically and horizontally to accommodate growing data and user loads. You can add more resources to a single server or distribute the workload across multiple servers using techniques like sharding or replication.
+                    Compatibility: MySQL is widely supported by many programming languages, frameworks, and tools. It offers connectors and APIs for popular languages like PHP, Python, Java, and more, making it easy to integrate with your existing software stack.
+                    Security: MySQL provides robust security features to protect your data, including access controls, encryption, and auditing capabilities. With proper configuration, you can ensure that only authorized users have access to sensitive information.
+                </p>
+                <br>
+                <p class="font"><b>Who Uses MySQL?</b>
+                
+                    MySQL is a widely-used relational database management system (RDBMS) that caters to various user groups, from small businesses to large enterprises. Here’s a look at who uses MySQL:
+
+                    Small to Medium-Sized Businesses (SMBs): MySQL is popular among SMBs due to its cost-effectiveness, ease of use, and flexibility. These businesses leverage MySQL for managing their customer data, sales transactions, and other operational databases.
+                    Large Enterprises: Many large organizations use MySQL for its scalability and reliability. Companies like Facebook, Google, and Adobe rely on MySQL to handle large-scale databases and high-traffic applications.
+                    Web Developers: MySQL is a favorite among web developers because it integrates seamlessly with popular web development technologies such as PHP and JavaScript. It powers many websites and web applications, from blogs to e-commerce platforms.
+                    Educational Institutions: MySQL is frequently used in academic settings for teaching database management and SQL skills. Its open-source nature makes it a cost-effective choice for educational purposes.  
+                </p>
+
+                <pre><code>
+                    CREATE TABLE users (
+                        <br>
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        <br>
+                        username VARCHAR(50) NOT NULL,
+                        <br>
+                        password VARCHAR(100) NOT NULL,
+                        <br>
+                        email VARCHAR(100),
+                        <br>
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                        <br>
+                    );
+                    <br>
+                    
+                    INSERT INTO users (username, password, email) <br>
+                    VALUES ('john_doe', 'securepassword', 'john@example.com');
+                        </code></pre>
+            </section>
+
+            <section class="main-section" id="javaprogramming">
+                <header>
+                    Java Programming
+                </header>
+                <p class="font">
+                    Java is one of the most popular and widely used programming language and platform. A platform is an environment that helps to develop and run programs written in any programming language. Java is fast, reliable and secure. From desktop to web applications, scientific supercomputers to gaming consoles, cell phones to the Internet, Java is used in every nook and corner.
+                </p>
+                <br>
+
+                <p class="font">
+                    Java’s history is as interesting as it is impactful. The journey of this powerful programming language began in 1991 when James Gosling, Mike Sheridan, and Patrick Naughton, a team of engineers at Sun Microsystems known as the “Green Team,” set out to create a new language initially called “Oak.” Oak was later renamed Java, inspired by Java coffee, and was first publicly released in 1996 as Java 1.0. This initial version provided a no-cost runtime environment across popular platforms, making it accessible to a broad audience. Arthur Van Hoff rewrote the Java 1.0 compiler to strictly comply with its specifications, ensuring its reliability and cross-platform capabilities.
+
+                    Java evolved over time, with Java 2 introducing multiple configurations tailored for different platforms, showcasing its versatility.
+                    In 1997, Sun Microsystems aimed to formalize Java through the ISO standards body but eventually withdrew from the process.
+                    Despite not formalizing through ISO, Sun Microsystems offered most Java implementations at no cost, earning revenue by licensing specialized products such as the Java Enterprise System.
+                    A significant milestone in Java’s history occurred on November 13, 2006, when Sun Microsystems released a large portion of the Java Virtual Machine (JVM) as free, open-source software.
+                    By May 8, 2007, the core JVM code was fully available under open-source distribution terms.
+                    Java was designed with core principles: simplicity, robustness, security, high performance, portability, multi-threading, and dynamic interpretation. These principles have made Java a preferred language for various applications, including mobile devices, internet programming, gaming, and e-business.
+                    Today, Java continues to be a cornerstone of modern software development, widely used across industries and platforms.
+                </p>
+
+                <pre><code>
+                    public class HelloWorld {
+                        <br>
+                        public static void main(String[] args) {
+                            <br>
+                            System.out.println("Hello, World!");
+                            <br>
+                        }
+                        <br>
+                    }
+                        </code></pre>
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>
